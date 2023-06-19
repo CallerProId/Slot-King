@@ -4,7 +4,7 @@ workflows:
     instance_type: mac_mini_m1
     max_build_duration: 120
     integrations:
-      app_store_connect: GoldSlotsAPIKey
+      app_store_connect: ATDevKey
     environment:
       ios_signing:
         distribution_type: app_store
@@ -18,7 +18,7 @@ workflows:
         UNITY_IOS_DIR: ios
         XCODE_PROJECT: "Unity-iPhone.xcodeproj"
         XCODE_SCHEME: "Unity-iPhone"
-        APP_STORE_APP_ID: 6450305857
+        APP_STORE_APP_ID: 6450432696
       cocoapods: default
     scripts:
       - name: Retrieve Used Unity Version
