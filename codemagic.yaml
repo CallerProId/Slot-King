@@ -10,7 +10,7 @@ workflows:
         distribution_type: app_store
         bundle_identifier: com.app.slotking
       groups:
-        - unity_credentials
+        - ATMLS
       vars:
         UNITY_VERSION: 2021.3.23f1
         UNITY_VERSION_CHANGESET: 213b516bf396
